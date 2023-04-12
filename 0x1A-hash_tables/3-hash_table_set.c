@@ -96,7 +96,12 @@ hash_node_t *_node_(const char *key, const char *value)
  * redescribed collides with urites
  * dram collides with vivency
  */
-/* This demonstrates a phenomenon where distinct input strings produce the same hash
-value when hashed using the djb2 algorithm, resulting in hash collisions. It's important to
-be aware of this limitation and choose appropriate hash functions based on the specific 
-requirements and security considerations of your application */
+/* 
+This demonstrates a phenomenon where distinct input
+strings produce the same hash
+value when hashed using the djb2 algorithm,
+resulting in hash collisions. It's important to
+be aware of this limitation and choose appropriate
+hash functions based on the specific
+requirements and security considerations of your application 
+*/
