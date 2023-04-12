@@ -1,10 +1,13 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_delete - function that deletes a hash table.
- * @ht: pointer to hash table to be deleted.
+ * hash_table_delete - Delete a hash table and its nodes.
+ * @ht: Pointer to the hash table to be deleted.
  *
- * Return: No return.
+ * This function deletes a hash table along with its nodes. It iterates through
+ * each bucket in the hash table's array, frees the memory allocated for keys and
+ * values of each node, and removes the nodes from the linked lists. Finally, it
+ * frees the memory allocated for the array and the hash table itself.
  */
 void hash_table_delete(hash_table_t *ht)
 {
