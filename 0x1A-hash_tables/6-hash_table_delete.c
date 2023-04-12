@@ -5,8 +5,10 @@
  * @ht: Pointer to the hash table to be deleted.
  *
  * This function deletes a hash table along with its nodes. It iterates through
- * each bucket in the hash table's array, frees the memory allocated for keys and
- * values of each node, and removes the nodes from the linked lists. Finally, it
+ * each bucket in the hash table's array,
+ * frees the memory allocated for keys and
+ * values of each node, and removes the
+ * nodes from the linked lists. Finally, it
  * frees the memory allocated for the array and the hash table itself.
  */
 void hash_table_delete(hash_table_t *ht)
