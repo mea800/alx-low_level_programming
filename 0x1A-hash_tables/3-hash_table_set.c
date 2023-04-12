@@ -85,19 +85,14 @@ hash_node_t *_node_(const char *key, const char *value)
 }
 
 /**
-
-Description - Here are some examples of string pairs
-that collide when hashed using the djb2 algorithm:
-"hetairas" collides with "mentioner"
-"heliotropes" collides with "neurospora"
-"depravement" collides with "serafins"
-"stylist" collides with "subgenera"
-"joyful" collides with "synaphea"
-"redescribed" collides with "urites"
-"dram" collides with "vivency"
-This demonstrates a phenomenon where distinct input strings produce 
-the same hash value when hashed using the djb2 algorithm,
-resulting in hash collisions. It's important to be aware of this limitation
-and choose appropriate hash functions based on the specific requirements
-and security considerations of your application.
-*/
+ * description - If you want to test for collisions, here are some strings,
+ * that collide using the djb2 algorithm:
+ *
+ * hetairas collides with mentioner
+ * heliotropes collides with neurospora
+ * depravement collides with serafins
+ * stylist collides with subgenera
+ * joyful collides with synaphea
+ * redescribed collides with urites
+ * dram collides with vivency
+ */
