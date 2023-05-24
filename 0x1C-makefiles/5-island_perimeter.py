@@ -1,9 +1,9 @@
 #!/usr/bin/python3
-"""Function island_perimeter(grid)"""
+"""Function of island_perimeter(grid)"""
 
 
 def island_perimeter(grid):
-    """returns the perimeter of the island described in grid.
+    """returns a perimeter of a island described in grid.
 
     Args:
         grid (list): grid
